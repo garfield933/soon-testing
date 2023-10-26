@@ -161,6 +161,9 @@ code {
 .avatarHintInner-3gk_Yx {
   border-radius: var(--avatar-radius);
 }
+.topSection_dfb73b header svg mask {
+    display:none;
+}
   
 /* Mentions */
 .numberBadge__50328:not(#a) {

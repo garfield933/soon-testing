@@ -10,7 +10,7 @@ https://github.com/dreidelman/soon
 </p>
 
 <p align="center">A smooth, modifiable theme for simple-minded people.</p>
-<h6 align="center">Founded by drei#3612 | 1102042422898335754<br />Maintained by lilytistic#7613 | 1001596470971076728 </h6>
+<h6 align="center">Theme by polysymphonic | Discord: 1102042422898335754</h6>
 
 ---
 
@@ -32,7 +32,7 @@ https://github.com/dreidelman/soon
 
 - ### [BetterDiscord](https://betterdiscord.app)
 
-  - download the [theme file](https://github.com/SatanaDesigns/soon/blob/main/Soon.theme.css).
+  - download the [theme file](https://github.com/lilytistic/soon/blob/main/soon.theme.css).
   - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes.
   - enable **soon** in the themes tab.
 
@@ -45,16 +45,15 @@ https://github.com/dreidelman/soon
 
 ## Modify
 
-- Open [soon.theme.css](https://github.com/SatanaDesigns/soon/blob/main/Soon.theme.css)
+- Open [soon.theme.css](https://github.com/lilytistic/soon/blob/main/Soon.theme.css)
 - Find `:root`
 - Change anything in the variables
 - Save
 
 ## Credits
 
-- [lilytistic](https://github.com/lilytistic) for maintaining the theme
-- [carrot](https://github.com/ObjectiveSlayer) for being a real homie
-- [Obscure](https://github.com/Obscure-Git) for the icon change
+- [polysymphonic](https://github.com/polysymphonic) for creating the theme
+- [Obscure](https://github.com/kritishd8) for the icon change
 - [blueb442](https://github.com/blueb442) for the color palette
 - [Gibbu](https://github.com/Gibbu) for Radial Status
 - [Doggybootsy](https://github.com/doggybootsy), [A User](https://github.com/abUwUser) & [Disease](https://github.com/maenDisease) for anyother snippets i used

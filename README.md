@@ -17,11 +17,11 @@ https://github.com/dreidelman/soon
 <h1 align="center">Previews</h1>
 <p align="center">
 <h3 align="center">Home</h3>
-  <img src="https://ibb.co/2ZTcsK4" />
+  <img src="https://i.ibb.co/FHF807T/Discord-ZPZGb-Cf-LNv.png" />
   <h3 align="center">Server</h3>
-  <img src="https://ibb.co/3T00hrc" />
+  <img src="https://i.ibb.co/VLvvBjT/Discord-q-FW9-WT25k-D.png" />
   <h3 align="center">Settings</h3>
-  <img src="https://ibb.co/1rJDhc4" />
+  <img src="https://i.ibb.co/n78HZpK/Discord-1-Pt-P6e2v-SW.png" />
   <h3 align="center">User Popout</h3>
   <img src="https://i.ibb.co/1r5mV6R/Untitled.png" />
 </p>

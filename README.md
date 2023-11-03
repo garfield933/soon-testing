@@ -17,13 +17,13 @@ https://github.com/dreidelman/soon
 <h1 align="center">Previews</h1>
 <p align="center">
 <h3 align="center">Home</h3>
-  <img src="https://i.ibb.co/VgKyf79/home.png" />
+  <img src="https://ibb.co/2ZTcsK4" />
   <h3 align="center">Server</h3>
-  <img src="https://i.ibb.co/Fz1wG3q/server.png" />
+  <img src="https://ibb.co/3T00hrc" />
   <h3 align="center">Settings</h3>
-  <img src="https://i.ibb.co/mzvXRt6/settings.png" />
+  <img src="https://ibb.co/1rJDhc4" />
   <h3 align="center">User Popout</h3>
-  <img src="[https://i.imgur.com/ziLIn5k.png](https://i.ibb.co/h2wMwSm/popout.png)" />
+  <img src="https://i.ibb.co/1r5mV6R/Untitled.png" />
 </p>
 
 ---

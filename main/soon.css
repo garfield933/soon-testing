@@ -13,21 +13,24 @@ code {
 
 /* Sidebar */
 .sidebar_ded4b5 {
-  border-top-left-radius:10px;
+  border-top-left-radius:4.5px!important;
 }
+
 
 /* Pin Home Icon */
 .guilds__2b93a .tree__7a511:focus {
   outline-color: transparent;
 }
+
 .guilds__2b93a .scroller__3d071 {
   contain: unset;
-  margin-top: 53px;
+  margin-top: 42px;
 }
-.guilds__2b93a .scroller__3d071 .tutorialContainer__890ea {
+
+.guilds__2b93a .scroller__3d071, .tutorialContainer__890ea {
   position: fixed;
   transform: translatey( -115% );
-  background-color:#131118;
+  background-color:var(--background-tertiary)!important;
   border-top-right-radius:10px;
 }
 .tutorialContainer__890ea.listItem_fa7b36.wrapper_d281dd[data-list-item-id="guildsnav___home"]:not(#a) {
@@ -43,8 +46,9 @@ code {
 /* Server List */
 .guilds__2b93a {
   border-radius: 0 10px 10px 0;
-  margin: 20px 10px 10px 0;
+  margin: 20px 1px 10px 0;
 }
+
 .scroller__3d071 {
   background-color:#211d2981!important;
 }
@@ -218,10 +222,10 @@ Do Not Touch.
   background-color:var(--toolbar-bg);
 }
 .circleIconButton_d8df29 {
-  background-color:var(--serverlist-btn);
+  background-color:#17151d;
 }
 .childWrapper__01b9c.acronym_cd4809 {
-  background-color:var(--serverlist-btn);
+  background-color:#17151d;
 }
 .autocomplete_df266d,.autocomplete__0c75a,.autocompleteAttached_ac1f6b:not(#a) {
   background-color:var(--autocomplete-bg);
@@ -876,3 +880,4 @@ body #app-mount .quickSelectPopout_c0cf80>.quickSelectPopoutOption__39224:hover{
 .tooltip__01384 {
     backdrop-filter: blur(15px);
 }
+

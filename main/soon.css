@@ -13,7 +13,7 @@ code {
 
 /* Sidebar */
 .sidebar_ded4b5 {
-  border-top-left-radius:10px;
+  border-top-left-radius:4.5px!important;
 }
 
 
@@ -24,13 +24,11 @@ code {
 
 .guilds__2b93a .scroller__3d071 {
   contain: unset;
-  margin-top: 53px;
+  margin-top: 42px;
 }
 
 .guilds__2b93a .scroller__3d071, .tutorialContainer__890ea {
-  position: fixed;
-  transform: translatey( -115% );
-  background-color:#131118;
+  background-color: var(--background-tertiary)!important;
   border-top-right-radius:10px;
 }
 .tutorialContainer__890ea.listItem_fa7b36.wrapper_d281dd[data-list-item-id="guildsnav___home"]:not(#a) {
@@ -46,7 +44,7 @@ code {
 /* Server List */
 .guilds__2b93a {
   border-radius: 0 10px 10px 0;
-  margin: 20px 10px 10px 0;
+  margin: 20px 1px 10px 0;
 }
 
 .scroller__3d071 {
@@ -65,7 +63,7 @@ code {
 }
 /* Servers */
 .tutorialContainer__890ea .selected_ad2d13 .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c:not(#bbc) {
-  background-color:var(--server-bg);
+  background-color:#17151d;
 }
   
 /* Titlebar/Wordmark */
@@ -880,4 +878,3 @@ body #app-mount .quickSelectPopout_c0cf80>.quickSelectPopoutOption__39224:hover{
 .tooltip__01384 {
     backdrop-filter: blur(15px);
 }
-

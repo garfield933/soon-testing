@@ -24,7 +24,7 @@ code {
 
 .guilds__2b93a .scroller__3d071 {
   contain: unset;
-  margin-top: 42px;
+  margin-top: 32px;
 }
 
 .guilds__2b93a .scroller__3d071, .tutorialContainer__890ea {
@@ -366,6 +366,33 @@ Do Not Touch.
 }
 .theme-light .close-1mLglB.button_afdfd9:hover {
   opacity: 1;
+}
+.scroller__3d071 {
+  contain: unset;
+  padding-bottom: 190px;
+}
+.scroller__3d071::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    width: 72px;
+    height: 190px;
+    background: linear-gradient(transparent, var(--background-tertiary) 30%);
+    z-index: 1;
+}
+.tutorialContainer_dc6fde {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+.tutorialContainer_dc6fde + .listItem_fa7b36 {
+    position: fixed;
+    bottom: 58px;
+    contain: none;
+    z-index: 1;
+}
+.tutorialContainer__890ea > * {
+    margin-bottom:0px!important;
 }
   
 /* Discover Servers Page */

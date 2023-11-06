@@ -53,7 +53,7 @@ code {
 .tutorialContainer__890ea > .listItem_fa7b36:first-child{
   margin-top:9px;
 }
-.scroller__3d071 .wrapper__3af0b foreignObject, .folderIconWrapper__72239, .wrapperSimple_a34580 {
+.scroller__3d071 .wrapper__3af0b foreignObject, .folderIconWrapper__72239, .wrapperSimple_a34580, .expandedFolderBackground__1bec6 {
   mask: none;
   border-radius: var(--folder-radius);
 }
@@ -166,6 +166,14 @@ code {
 .topSection_dfb73b header svg mask {
     display:none;
 }
+/* RS Typing Animation Removal */
+#app-mount .wrapper_edb6e0 .pointerEvents__33f6a[x="14.5"] {
+  fill: transparent !important;
+  width: 30px;
+  height: 30px;
+  x: 1;
+  y: 1;
+}
   
 /* Mentions */
 .numberBadge__50328:not(#a) {
@@ -183,14 +191,6 @@ code {
 .unreadMentionsIndicatorBottom_fdb943.bar_edc096,.unreadMentionsBar__0d02a:not(#a) {
   mask: none;
   border-radius: 5px;
-}
-  
-/* Home Icon */
-.homeIcon__00b1b path:not(#a) {fill: transparent}
-.homeIcon__00b1b {
-  background: url('https://i.ibb.co/BTPpwTd/soon-white.png') center/cover no-repeat;
-  min-width: 35px;
-  min-height: 35px;
 }
 
 /* Message Box */
@@ -286,11 +286,7 @@ Do Not Touch.
 .wrapper_edb6e0 circle {
   fill:transparent;
 }
-  
-/* pretty girl df */
-.wrapper__09ecc [src*="505110032199843842"] ~ h2 .username_d30d99::after {
-  content:'💕';
-}
+
 /* Add Server Button [+] */
 .theme-light .root_a28985, .modalContent-33IoU, .header__6d5ea {
   background-color: var(--dark-background);
@@ -377,8 +373,9 @@ Do Not Touch.
     bottom: 0;
     width: 72px;
     height: 190px;
-    background: linear-gradient(transparent, var(--background-tertiary) 30%);
+    background: linear-gradient(transparent, var(--background-tertiary) 70%);
     z-index: 1;
+    pointer-events: none!important;
 }
 .tutorialContainer_dc6fde {
     position: fixed;
@@ -437,7 +434,7 @@ Do Not Touch.
   text-transform:none;
 }
 #app-mount .info__755e1 .line__75801:first-child::before {
-  content: "https://satana.design";
+  content: "https://dreidel.wtf";
   display: block;
   font-weight:bold;
   text-transform:none;
@@ -606,7 +603,7 @@ Do Not Touch.
 }
 .expandedFolderIconWrapper__458cf,
 .expandedFolderBackground__1bec6  {
-    background-color: var(--closed-folder-bg);
+    background-color: var(--opened-folder-bg);
 }
 
 .invite__2a93b:not(#a) {

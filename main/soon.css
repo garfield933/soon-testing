@@ -538,6 +538,9 @@ Do Not Touch.
 .avatarUploaderNormal-1h8g3f .status-b9jLr4 {
   display:none;
 }
+.modalSize__42455 {
+  background-color: var(--dark-background-secondary);
+}
 #gif-picker-tab-panel:not(#a),
 .modalContent-1uVMnp:not(#a),
 .artContainer__56b19:not(#a),

@@ -98,10 +98,13 @@ by blueb442 (Modified Purpura Palette)
     --itemtab-selected: #000000bd;
     }
     
-    .inputForm-3RoxXV .inputDefault__80165, .container-1Lk8p7 .inputDefault__80165 {
+    .inputForm-3RoxXV .inputDefault__22335, .container-1Lk8p7 .inputDefault__22335 {
         background-color: var(--background-tertiary);
     }
-    .container-1Lk8p7 .contents_fb6220 {
+    .scroller_bd2d35 {
+        background-color: var(--background-secondary);
+    }
+    .container-1Lk8p7 .contents__322f4 {
         color:white;
     }
     
